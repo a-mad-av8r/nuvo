@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuvo"
+version = "0.1.0"
+description = "Explicit provider and Cortex configuration diagnostics for Nuvo"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/a-mad-av8r/nuvo"
+Repository = "https://github.com/a-mad-av8r/nuvo"
+
+[project.scripts]
+nuvo = "nuvo.__main__:main"
+
+[tool.setuptools]
+packages = ["nuvo"]
+
+[tool.setuptools.package-data]
+nuvo = ["native/**/*"]

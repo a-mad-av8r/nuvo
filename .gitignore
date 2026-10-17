@@ -1,0 +1,9 @@
+target/
+dist/
+build/
+*.egg-info/
+__pycache__/
+.env
+.npmrc
+.pypirc
+.build-tools/

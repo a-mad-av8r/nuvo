@@ -1,0 +1,11 @@
+[package]
+name = "nuvo-core"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.83"
+description = "Explicit provider and Cortex configuration diagnostics for Nuvo"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/a-mad-av8r/nuvo"
+repository = "https://github.com/a-mad-av8r/nuvo"
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE"]
