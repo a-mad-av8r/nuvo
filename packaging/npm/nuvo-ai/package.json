@@ -1,0 +1,26 @@
+{
+  "name": "nuvo-ai",
+  "version": "0.1.0",
+  "description": "Explicit provider and Cortex configuration diagnostics for Nuvo",
+  "license": "MIT",
+  "homepage": "https://github.com/a-mad-av8r/nuvo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-mad-av8r/nuvo.git"
+  },
+  "files": [
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "nuvo",
+    "agent-harness"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "nuvo": "0.1.0"
+  }
+}
